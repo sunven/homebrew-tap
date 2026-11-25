@@ -19,7 +19,9 @@ cask "default-apps" do
 
   zap trash: [
     "~/Library/Application Support/Default Apps",
+    "~/Library/Caches/io.github.sunven.default-apps",
     "~/Library/Preferences/io.github.sunven.default-apps.plist",
+    "~/Library/WebKit/io.github.sunven.default-apps*",
   ]
 
   caveats do
